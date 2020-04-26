@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>BakedGoods</Company>
+    <PackageDescription>Di helper project</PackageDescription>
+    <RepositoryUrl>https://github.com/abeltsios/bakedgoods.dependency.exjection</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BakedGoods.Dependency.Exjection.Abstractions\BakedGoods.Dependency.Exjection.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
